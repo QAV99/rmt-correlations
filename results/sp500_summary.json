@@ -1,0 +1,56 @@
+{
+  "standardised": true,
+  "noise_method": "market",
+  "dropped_duplicates": [
+    "GOOG"
+  ],
+  "n_stocks": 415,
+  "n_days": 4022,
+  "q": 0.10474507824331146,
+  "sigma2": 0.6718588056371482,
+  "lambda_plus": 1.1771181030309763,
+  "k_signal": 33,
+  "top_eigenvalues": [
+    136.17859566058348,
+    22.17616107532474,
+    10.61100524145938,
+    7.353097352190793,
+    5.644735488513987,
+    4.854792156213833,
+    4.6045211681637905,
+    3.795007480732442,
+    3.596857004579846,
+    3.2812274244665436
+  ],
+  "market_mode_corr": 0.999198580114993,
+  "portfolios": {
+    "Sample": {
+      "realised_vol": 0.1768817577872809,
+      "predicted_vol": 0.019250822251472066,
+      "gross_leverage": 13.294689775052019,
+      "effective_n": 1.3143895294052497,
+      "realised / predicted": 9.188270271092195
+    },
+    "RMT clipped": {
+      "realised_vol": 0.1184653522801669,
+      "predicted_vol": 0.043780100703134685,
+      "gross_leverage": 3.8939288354793997,
+      "effective_n": 13.879097802228408,
+      "realised / predicted": 2.7059177657781106
+    },
+    "Ledoit-Wolf": {
+      "realised_vol": 0.1299995584548672,
+      "predicted_vol": 0.030017877978480365,
+      "gross_leverage": 6.8474292690456915,
+      "effective_n": 4.9424438227259575,
+      "realised / predicted": 4.330737787263413
+    },
+    "Equal weight": {
+      "realised_vol": 0.17054967589418255,
+      "predicted_vol": 0.1694052438702638,
+      "gross_leverage": 1.0000000000000002,
+      "effective_n": 415.0000000000001,
+      "realised / predicted": 1.006755587948595
+    }
+  }
+}
